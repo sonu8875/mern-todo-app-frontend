@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import TodoForm from "./components/todoForm.jsx";
-import TodoCard from "./components/todocard.jsx";
+import TodoForm from "./components/TodoForm.jsx";
+import TodoCard from "./components/TodoCard.jsx";
 
 function App() {
   const [todoList, setTodoList] = useState([]);
